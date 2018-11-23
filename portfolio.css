@@ -1,0 +1,53 @@
+body {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 30px;
+	background-color: rgb(79,174,84);
+	color: #333;
+	font-family: Helvetica,Arial,sans-serif;
+	background-image: src= "images/dégradé de vert";
+
+}
+
+body p, h1{
+	text-align: center;
+}
+
+ul.onglets{
+	margin: 0;
+}
+ul.onglets li{
+	display: inline-block;
+	padding: 8px;
+	font-family: Georgia, Arial, "Arial Black", sans-serif;
+	font-size: 120%;
+
+}
+div.onglets{
+	min-height: 30px;
+	margin-top: -1px;
+	padding: 10px;
+}
+.onglet{
+	display: none;
+}
+img {
+	height: 250px;
+	margin: 10px;
+	box-shadow: 2px 2px 2px rgb(22,22,22);
+}
+.rotate{
+	transform: rotate(90deg);
+	width: 250px;
+	height: none;
+}
+.dessins{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.phrase{
+	margin: auto;
+	text-align: center;
+}
